@@ -165,7 +165,7 @@ def main(url,file_name):
     
     csv_file_path = file_name
 
-    with open(csv_file_path, "w", newline="") as csvfile:
+    with open(csv_file_path, "w", newline="", encoding = "utf-8") as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow(table_headers(parties_dict))
         for code, name, reg, env, val in zip(codes, names, registered, envelopes, valid):

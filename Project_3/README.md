@@ -3,7 +3,7 @@
 - **Discord:** morganalena
 	
 ## Description: 
-This Python script is designed to scrape parlament election results data from the website(link [here](https://volby.cz/pls/ps2017nss/ps3?xjazyk=CZ)) focusing specifically on the 2017 elections. It scrapes details like voter registration, issued envelopes, valid votes, and party outcomes across various regions. The scraped data is saved in a CSV file. 
+This Python script is designed to scrape parliament election results data from the website([here](https://volby.cz/pls/ps2017nss/ps3?xjazyk=CZ)) focusing specifically on the 2017 elections. It scrapes details like voter registration, issued envelopes, valid votes, and party outcomes across various regions. The scraped data is saved in a CSV file. 
 
 ## Installation:
 To set up the required packages for the code, download the files project_3_AM.py and requirements.txt. Then, follow these steps:
@@ -21,13 +21,13 @@ To execute the election-scraper.py file in the command prompt, two arguments are
    - First argument: https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=1&xnumnuts=1100
    - Second argument: praha.csv
 
-### Exucution of the program:
+### Execution of the program:
 ```
 python project_3_AM.py <link-to-location> <output-file>
 python project_3_AM.py "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=1&xnumnuts=1100" "praha.csv" #example command
 ```
 
-## example of .csv output
+### Example of .csv output
 ```
 Code,Location,Registered,Envelopes,Valid,Občanská demokratická strana,Řád národa - Vlastenecká unie....
 500054,Praha 1,21556,14167,14036,2770,9...
